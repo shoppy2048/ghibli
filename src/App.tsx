@@ -26,24 +26,24 @@ function App() {
 
   const examples = [
     {
-      before: "/src/assets/imgs/photo-1449824913935-59a10b8d2000.jpg?w=800",
-      after: "./src/assets/imgs/photo-1493976040374-85c8e12f0c0e.jpg?w=800",
+      before: "@/assets/imgs/photo-1449824913935-59a10b8d2000.jpg?w=800",
+      after: "@/assets/imgs/photo-1493976040374-85c8e12f0c0e.jpg?w=800",
       title: isEnglish ? "City Transformation" : "城市转换",
       description: isEnglish 
         ? "Urban landscape transformed into a magical Ghibli world" 
         : "都市景观转变为吉卜力魔法世界"
     },
     {
-      before: "/src/assets/imgs/photo-1502786129293-79981df4e689.jpg?w=800",
-      after: "/src/assets/imgs/photo-1513542789411-b6a5d4f31634.jpg?w=800",
+      before: "@/assets/imgs/photo-1502786129293-79981df4e689.jpg?w=800",
+      after: "@/assets/imgs/photo-1513542789411-b6a5d4f31634.jpg?w=800",
       title: isEnglish ? "Nature Magic" : "自然魔法",
       description: isEnglish 
         ? "Natural scenery with enchanted Ghibli elements" 
         : "融入吉卜力元素的自然风光"
     },
     {
-      before: "/src/assets/imgs/photo-1490750967868-88aa4486c946.jpg?w=800",
-      after: "/src/assets/imgs/photo-1528164344705-47542687000d.jpg?w=800",
+      before: "@/assets/imgs/photo-1490750967868-88aa4486c946.jpg?w=800",
+      after: "@/assets/imgs/photo-1528164344705-47542687000d.jpg?w=800",
       title: isEnglish ? "Magical Garden" : "魔法花园",
       description: isEnglish 
         ? "Garden scene with Ghibli's distinctive style" 
@@ -133,7 +133,7 @@ function App() {
     ],
     testimonials: [
       {
-        image: "/src/assets/imgs/photo-1494790108377-be9c29b29330.jpg?w=400",
+        image: "@/assets/imgs/photo-1494790108377-be9c29b29330.jpg?w=400",
         name: isEnglish ? 'Sarah Chen' : '陈萱',
         role: isEnglish ? 'Digital Artist' : '数字艺术家',
         quote: isEnglish
@@ -141,7 +141,7 @@ function App() {
           : "生成的图片质量令人惊叹。就像在指尖拥有吉卜力工作室的艺术家一样。",
       },
       {
-        image: "/src/assets/imgs/photo-1472099645785-5658abf4ff4e.jpg?w=400",
+        image: "@/assets/imgs/photo-1472099645785-5658abf4ff4e.jpg?w=400",
         name: isEnglish ? 'David Wong' : '王大卫',
         role: isEnglish ? 'Animator' : '动画师',
         quote: isEnglish
