@@ -26,24 +26,24 @@ function App() {
 
   const examples = [
     {
-      before: "./assets/imgs/photo-1449824913935-59a10b8d2000.jpg?w=800",
-      after: "./assets/imgs/photo-1493976040374-85c8e12f0c0e.jpg?w=800",
+      before: "src/assets/imgs/photo-1449824913935-59a10b8d2000.jpg?w=800",
+      after: "src/assets/imgs/photo-1493976040374-85c8e12f0c0e.jpg?w=800",
       title: isEnglish ? "City Transformation" : "城市转换",
       description: isEnglish 
         ? "Urban landscape transformed into a magical Ghibli world" 
         : "都市景观转变为吉卜力魔法世界"
     },
     {
-      before: "./assets/imgs/photo-1502786129293-79981df4e689.jpg?w=800",
-      after: "./assets/imgs/photo-1513542789411-b6a5d4f31634.jpg?w=800",
+      before: "src/assets/imgs/photo-1502786129293-79981df4e689.jpg?w=800",
+      after: "src/assets/imgs/photo-1513542789411-b6a5d4f31634.jpg?w=800",
       title: isEnglish ? "Nature Magic" : "自然魔法",
       description: isEnglish 
         ? "Natural scenery with enchanted Ghibli elements" 
         : "融入吉卜力元素的自然风光"
     },
     {
-      before: "./assets/imgs/photo-1490750967868-88aa4486c946.jpg?w=800",
-      after: "./assets/imgs/photo-1528164344705-47542687000d.jpg?w=800",
+      before: "src/assets/imgs/photo-1490750967868-88aa4486c946.jpg?w=800",
+      after: "src/assets/imgs/photo-1528164344705-47542687000d.jpg?w=800",
       title: isEnglish ? "Magical Garden" : "魔法花园",
       description: isEnglish 
         ? "Garden scene with Ghibli's distinctive style" 
